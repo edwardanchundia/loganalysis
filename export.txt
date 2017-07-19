@@ -1,0 +1,43 @@
+Question 1
+Candidate is jerk, alleges rival -- 338647 views
+Bears love berries, alleges bear -- 253801 views
+Bad things gone, say good people -- 170098 views
+
+Question 2
+Ursula La Multa -- 507594 views
+Rudolf von Treppenwitz -- 423457 views
+Anonymous Contributor -- 170098 views
+Markoff Chaney -- 84557 views
+
+Question 3
+Jul 01, 2016 -- 2.99852804462349% error
+Jul 31, 2016 -- 3.55167338084909% error
+Jul 26, 2016 -- 4.2127362875736% error
+Jul 27, 2016 -- 4.22133560582584% error
+Jul 10, 2016 -- 4.22133560582584% error
+Jul 11, 2016 -- 4.22195537651069% error
+Jul 16, 2016 -- 4.2220328478463% error
+Jul 20, 2016 -- 4.22660365664704% error
+Jul 05, 2016 -- 4.228772854044% error
+Jul 25, 2016 -- 4.23094205144097% error
+Jul 07, 2016 -- 4.24078091106291% error
+Jul 06, 2016 -- 4.2434149364735% error
+Jul 28, 2016 -- 4.24519677719244% error
+Jul 12, 2016 -- 4.24845057328788% error
+Jul 03, 2016 -- 4.25054229934924% error
+Jul 23, 2016 -- 4.2527114967462% error
+Jul 04, 2016 -- 4.25340873876666% error
+Jul 29, 2016 -- 4.25712736287574% error
+Jul 15, 2016 -- 4.2579795475674% error
+Jul 30, 2016 -- 4.26657886581965% error
+Jul 08, 2016 -- 4.26743105051131% error
+Jul 24, 2016 -- 4.268670591881% error
+Jul 13, 2016 -- 4.27486829872947% error
+Jul 14, 2016 -- 4.27610784009916% error
+Jul 02, 2016 -- 4.27641772544159% error
+Jul 22, 2016 -- 4.27688255345522% error
+Jul 09, 2016 -- 4.2792066935234% error
+Jul 21, 2016 -- 4.27959405020143% error
+Jul 19, 2016 -- 4.28734118376201% error
+Jul 18, 2016 -- 4.30655407499225% error
+Jul 17, 2016 -- 4.33118995971491% error
