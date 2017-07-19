@@ -1,29 +1,30 @@
+#!/usr/bin/env python3
 import psycopg2
 import datetime
 
 conn = psycopg2.connect(database="news")
 cursor = conn.cursor()
 
-cursor.execute("""select articles.title, count(log.path) as views
-                from articles, log
-                where log.path = concat('/article/', articles.slug)
-                group by articles.title
-                order by views desc limit 3;""")
+cursor.execute("""SELECT articles.title, count(log.path) AS views
+                FROM articles, log
+                WHERE log.path = concat('/article/', articles.slug)
+                GROUP BY articles.title
+                ORDER BY views DESC LIMIT 3;""")
 question_one_results = cursor.fetchall()
 
-cursor.execute("""select authors.name, count(log.path) as views
-                from authors, log, articles
-                where log.path = concat('/article/', articles.slug)
-                and articles.author = authors.id
-                group by authors.name
-                order by views desc;""")
+cursor.execute("""SELECT authors.name, count(log.path) AS views
+                FROM authors, log, articles
+                WHERE log.path = concat('/article/', articles.slug)
+                AND articles.author = authors.id
+                GROUP BY authors.name
+                ORDER BY views DESC;""")
 question_two_results = cursor.fetchall()
 
-cursor.execute("""select date(time) as dates, cast(count(*) as float) /
-                (select cast(count(*) as float)
-                from log where status = '404 NOT FOUND') as errorPerc
-                from log group by dates
-                order by errorPerc;""")
+cursor.execute("""SELECT date(time) AS dates, cast(count(*) AS float) /
+                (SELECT cast(count(*) AS float)
+                FROM log WHERE status = '404 NOT FOUND') AS errorPerc
+                FROM log GROUP BY dates
+                ORDER BY errorPerc;""")
 question_three_results = cursor.fetchall()
 
 output = open("export.txt", "w")
