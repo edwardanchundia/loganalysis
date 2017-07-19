@@ -1,4 +1,4 @@
-# loganaysis
+# Log-Analysis
 
 The files in this repo uses Python and SQL queries to generate a report in a text file.
 
